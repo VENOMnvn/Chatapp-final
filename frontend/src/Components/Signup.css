@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*
+{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.Signup
+{
+  max-width: 600px;
+  border: 1px solid rgba(128, 128, 128, 0.708);
+  border-radius: 10px;
+  height: max-content;
+  padding: 20px;
+  margin: 30px auto;
+  margin-top: 0px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border: 1px solid #e5e7eb
+}
+.SignupWrapper
+{
+    padding: 20px 5px;
+    background-color: #f9fafb;
+}
+.Signup input
+{
+    margin-bottom: 15px;
+    max-width: 700px;
+    min-width: 320px;
+    font-size: 1.3rem;
+    height: 40px;
+    margin: auto;
+    border-radius: 10px 0px 10px 0px;
+    border: 1px solid rgb(158, 158, 158);
+    border: 1px solid rgb(26, 37, 74);
+}
+.Signup input:focus
+{
+    border:2px solid blueviolet;
+    border-radius: 0px 0px 10px #f9fafb;
+}
+
+.Signup label
+{
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    min-width: 350px;
+    font-family: 'Ebrima';
+    text-align: left;
+}
+.trueactive
+{
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    cursor: pointer;
+    margin: 24px auto;
+    max-width: 650px;
+    height: 50px;
+    background-color: rgb(25, 25, 166);
+}
+.trueactive
+{
+    background-color: blueviolet;
+    border: none;
+}
+.trueactive:hover
+{
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+.falseactive
+{
+    width: 300px;
+    border-radius: 8px;
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    margin: 24px auto;
+
+    cursor: not-allowed;
+    height: 50px;
+    background-color: rgb(173, 173, 173);
+}
+
+.alert
+{
+    color: rgb(186, 1, 1);
+    font-weight: 800;
+}
+.banner img
+{
+    width:300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 50%;
+}
+.Greet
+{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    color: blueviolet;
+}
+
+@media screen and (width <500px)
+{
+    .Signup input
+    {
+        width: 100vw;
+        min-width:200px;
+        max-width: 400px;
+    }
+}

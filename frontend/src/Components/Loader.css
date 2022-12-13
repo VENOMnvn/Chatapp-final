@@ -1,0 +1,39 @@
+.Spinner
+{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.Spinner .circle
+{
+     width: 50px;
+     height: 50px;
+     border:10px solid transparent;
+     border-top: 10px solid white;
+     border-bottom: 10px solid white;
+     border-radius: 50%;
+     animation-name: spin;
+     animation-duration: 1050ms;
+     animation-iteration-count: infinite;
+     transition: all;
+}
+
+@keyframes spin{
+    
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}

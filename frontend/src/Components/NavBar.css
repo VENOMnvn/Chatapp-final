@@ -1,0 +1,15 @@
+nav button
+{
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+nav .active
+{
+    
+    background-color: blueviolet;
+    color: white;
+    background: linear-gradient(blueviolet,blueviolet);
+}
